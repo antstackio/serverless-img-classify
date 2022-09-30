@@ -3,10 +3,10 @@ import requests
 
 st.set_page_config(page_title="Image Classifier", page_icon=":camera:", layout="wide")
 st.header("Image Classifier")
-st.subheader("Upload an image to classify")
+st.subheader("Upload an image of Hitman or AC Unity to classify")
 
 payload = st.sidebar.file_uploader("Upload an image", type=["jpg", "jpeg"])
-url = '<API-ENDPOINT-URL>'
+url = '<YOUR-API-ENDPOINT-URL>'
 headers = {
   'Content-Type': 'image/jpeg'
 }
