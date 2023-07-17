@@ -1,6 +1,6 @@
 # img-clf
 
-This project contains source code and supporting files for a serverless application for classifying handwritten digits using a Machine Learning model in [Tensorflow](https://www.tensorflow.org/). It includes the following files and folders:
+This project contains source code and supporting files for a serverless application for classifying images using a Machine Learning model in [Tensorflow](https://www.tensorflow.org/). It includes the following files and folders:
 
 - app/app.py - Code for the application's Lambda function including the code for ML inferencing.
 - app/Dockerfile - The Dockerfile to build the container image.
